@@ -1,0 +1,80 @@
+<html>
+	<head>
+
+        <title>Registration page</title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="registrationPage.css">
+
+        <script type= "text/javascript" src="jQuery.min.js"></script>
+        
+    </head>
+
+
+    <body>
+
+        <div id="signupDiv">
+
+            <h1> Registration </h1>
+
+            <div class="form-element"> 
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+            </div>
+        
+
+         
+            <div class="form-element">
+
+                <label for="phone">Phone  Number:</label>
+                <input type="number" id="phone" name="phone" required>    
+
+            </div>
+           
+
+       
+            <div class="form-element">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+            </div>
+
+            <div class="form-element">
+
+                <label for="password"> Confrim Password:</label>
+                <input type="password" id="passwordConfrim" name="passwordConfrim" required>
+    
+            </div>
+
+            <div class="form-element">
+
+                <input type="submit" id="signupBtn" value="Sign Up">
+
+            </div>
+
+
+        </div>
+
+        <div id="massages">
+
+            <p id="passwordMassage"> </p>
+
+            <p id="errorMassage"> </p>
+
+            <p id="succeededMassage"> </p>
+
+        </div>
+
+
+
+
+        <script type="text/javascript" src="registrationPage.js"> </script>
+      	
+      	
+    </body>
+</html>
+

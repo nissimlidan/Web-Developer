@@ -1,4 +1,4 @@
-var start = new Date().getTime();
+            var start = new Date().getTime();
 
             var bestTime = 1000;
 

@@ -1,0 +1,104 @@
+
+                body{
+
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(75, 74, 74);
+                    font-weight: bold;
+
+                }
+
+                label{
+
+                    position: relative;
+                    top: 7px;
+                    width: 110px;
+                    margin-right: 10px;
+                    font-size: 80%;
+                    float: left;
+
+                }   
+
+                input{
+
+                    border-radius: 2px;
+                    border: 1px solid gray;
+                    width: 240px;
+                    height: 25px;
+                }
+
+                .form-element{
+
+                    margin-bottom: 5px ;
+
+                }
+
+                #signupDiv{
+
+                    width:400px;
+                    background-color: rgb(75, 186, 206);
+                    margin: 0 auto;
+                    padding: 0px 5px 12px 20px;
+                    border: 2px solid rgb(182, 177, 177);
+                    border-radius: 2px;
+
+                }
+
+                #signupBtn{
+
+                    width: 90px;
+                    height: 30px;
+                    top: 8px;
+                    background-color: rgb(240, 144, 35);
+                    position: relative;
+                    left: 150px;
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(75, 74, 74);
+                    font-weight: bold;
+                    
+                }
+
+                h1{
+
+                    color: rgb(75, 74, 74);
+                    position: relative;
+                    left: 115px;
+
+                }
+
+
+
+                #Massages{
+
+                    width: 500;
+                    margin: 0 auto;
+                    font-size: 80%;
+                   
+                }
+
+                #passwordMassage{
+
+                    position: relative;
+                    float: left;
+                   
+                }
+
+                #errorMassage{
+
+                    position: relative;
+                    float: left;
+                    color: rgb(214, 71, 71);
+
+                }
+
+                #succeededMassage{
+
+                    position: relative;
+                    float: left;
+                    color: rgb(32, 143, 32);
+                    font-size: 160%;
+                    left: 135px;
+                    
+
+                }
+
+            
