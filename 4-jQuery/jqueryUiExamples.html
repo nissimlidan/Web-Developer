@@ -1,0 +1,116 @@
+<html>
+	<head>
+
+        <title>jQuery-UI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+
+        <script src="jquery-ui/external/jquery/jquery.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
+
+    
+        <style>
+
+            #draggable { 
+                width: 150px;
+                height: 150px;
+                padding: 0.5em;
+                background-color: green;
+             }
+             #droppable { 
+                 width: 150px; 
+                 height: 150px; 
+                 padding: 0.5em; 
+                 float: left; 
+                 margin-top: 20px; 
+                 background-color: lightseagreen;
+             }
+             #resizable {
+                  width: 150px;
+                  height: 150px;
+                  padding: 0.5em;
+                  background-color: indianred;
+                  margin-top: 20px;
+             }
+
+             #also {
+                  width: 150px;
+                  height: 150px;
+                  padding: 0.5em;
+                  background-color: rgb(57, 39, 134);
+                  margin-top: 20px;
+                  
+             }
+            
+             #resizable h3 {
+                  text-align: center;
+                  margin: 0; 
+            }
+        </style>
+
+        
+    </head>
+
+
+    <body>
+
+         <div id="draggable">
+
+            <span>Drag me around!</span>
+
+          </div>
+
+          <div id="resizable">
+
+            <p>resizable me around!</p>
+
+          </div>
+
+          <div id="also">
+
+            <p>resizable me around!</p>
+
+          </div>
+
+          <div id="droppable">
+
+            <p id="drop-text">Drop here!</p>
+
+          </div>
+
+
+        <script type="text/javascript">
+
+             $("#draggable").draggable({ axis: "y"});
+
+             $("span").draggable({ containment: "parent"});
+
+             $("#droppable").droppable({
+
+                drop: function(event, ui){
+
+                    $(this).find("#drop-text").html("Dropped!");
+                }
+             });
+
+             $("#resizable").resizable({ 
+                 grid: 50,
+                 alsoResize: "#also",
+                 resize: function(event, ui) {
+
+                    if( $("#resizable").width() > 300 ){
+
+                        alert("bigger then 300px");
+                    }
+                 }
+            });
+
+            $("#also").resizable();
+
+
+        </script>
+
+    </body>
+
+</html>
+

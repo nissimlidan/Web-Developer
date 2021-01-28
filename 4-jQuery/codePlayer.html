@@ -1,0 +1,59 @@
+<html>
+
+    <head>
+
+        <title> CodePlayer </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+        <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
+        <link rel="stylesheet" type="text/css" href="codePlayer.css">
+
+        <script src="jquery-ui/external/jquery/jquery.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="topbar">
+
+            <div id="CodePlayerLogo">
+
+                 CodePlayer
+
+            </div>
+
+                <div id="buttonContainer">
+
+                    <div class="toggelButton active" id="html">HTML</div>
+
+                    <div class="toggelButton" id="css">CSS</div>
+
+                    <div class="toggelButton" id="javascript">JavaScript</div>
+
+                    <div class="toggelButton active" id="output">Output</div>
+
+                </div>
+
+        </div>
+
+        <div id="bodyContainer">
+
+            <textarea class="panel" id="htmlPanel">  <p id="myName"> Name </p> </textarea>
+
+            <textarea class="panel hidden" id="cssPanel">  #myName {color: green;}</textarea>
+
+            <textarea class="panel hidden" id="javascriptPanel"> document.getElementById("myName").innerHTML = "Lidan Nissim";</textarea>
+
+            <iframe class="panel" id="outputPanel"></iframe>
+
+
+        </div>
+
+        <script type="text/javascript" src="codePlayer.js"></script>
+
+    </body>
+
+
+</html>

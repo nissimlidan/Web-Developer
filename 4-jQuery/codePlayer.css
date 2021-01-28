@@ -1,0 +1,93 @@
+body{
+
+    font-family: system, "Helvetica Neue", Helvetica, Arial;
+    font-size: 13px;
+}
+
+#topbar{
+
+    background-color: #EDEDED;
+    width: 100%;
+    height: 36px;
+    border-radius: 2px;
+}
+
+#codePlayerLogo{
+
+    float: left;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 6px 30px 0 7px;
+}
+
+.toggelButton{
+
+    float: left;
+    border: 1px solid gray;
+    padding: 6px 10px;
+    margin-top: 4px;
+    border-right: none;
+}
+
+#buttonContainer{
+
+    width: 400px;
+    margin: 0 auto;
+}
+
+#html{
+
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+#output{
+
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right:1px solid gray  ;
+}
+
+.highlightedButton{
+
+    background-color: rgb(185, 185, 185);
+}
+
+.active{
+
+    background-color: #84c9f4;
+}
+
+.hidden{
+
+    display: none;
+}
+
+
+textarea{
+
+    background-color: #FFFFFF;
+    border-top: none;
+    border-bottom: none;
+    border-left:none;
+    resize: none;
+    border-color: rgb(219, 219, 219);
+}
+
+iframe{
+
+    border: none;
+    padding: 1px;
+}
+
+.panel{
+
+    float: left;
+    margin-top: 10px; 
+}
+
+
+#outputPanel{
+
+    background-color: #F7F7F7;
+}
