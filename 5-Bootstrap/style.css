@@ -1,0 +1,32 @@
+.backgroundImage{
+
+    background-image: url(images/background2.jpg);
+
+  }
+
+  .textCenter{
+
+    text-align: center;
+
+  }
+
+  .input-group{
+
+    width: 500px;
+    position: relative;
+    left: 320px;
+    top: 15px;
+
+  }
+
+  #signupBtn{
+
+   position: relative;
+   left: 6px;
+
+  }
+
+  #appStoreLogo{
+
+    height: 60px;
+  }
